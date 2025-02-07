@@ -4,5 +4,6 @@ int main()
  char a;
  printf("Enter a single Character:")
  scanf("%c", &a);
- printf();
+ printf("You entered:%c", a);
+ return 0;
 }
