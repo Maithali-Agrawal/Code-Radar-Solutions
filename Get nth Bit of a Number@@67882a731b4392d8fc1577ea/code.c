@@ -8,6 +8,6 @@ int main() {
         return 1;
     }
     bitValue = (num >> n) & 1;
-    printf("The value of bit %d is: %d\n", n, bitValue);
+    printf("%d\n", n, bitValue);
     return 0;
 }
